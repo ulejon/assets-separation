@@ -1,0 +1,3 @@
+GET        /assets/*file        @controllers.adminweb.AdminAssets.at(path="/public/lib/adminweb", file)
+
+GET        /                    @controllers.adminweb.AdminWebCtrl.index()

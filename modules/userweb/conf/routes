@@ -1,0 +1,5 @@
+GET        /assets/*file        @controllers.userweb.UserAssets.at(path="/public", file)
+
+GET        /                    @controllers.userweb.UserWebCtrl.index()
+
+->         /admin               admin.Routes
